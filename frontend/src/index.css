@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply bg-white text-black leading-5;
+
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header,
+footer {
+  @apply container mx-auto px-4 py-4 lg:px-20 lg:px-4;
+}
+
+section {
+  @apply container mx-auto px-4 py-4 lg:px-20 lg:px-[60px];
+}
+
